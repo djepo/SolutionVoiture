@@ -7,6 +7,7 @@ Module Module1
     Sub Main()
         System.Console.WriteLine(maClio)
         System.Console.WriteLine(maClio.leMoteur)
+        System.Console.WriteLine(maClio.GetMoteur)
         System.Console.ReadKey()
     End Sub
 

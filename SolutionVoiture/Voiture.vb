@@ -13,6 +13,10 @@
         End Set
     End Property
 
+    Public Function GetMoteur()
+        Return _moteur
+    End Function
+
     Public Overrides Function ToString() As String
         Return MyBase.ToString & " " & _roues
     End Function

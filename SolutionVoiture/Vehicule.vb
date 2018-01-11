@@ -1,5 +1,5 @@
 ﻿Public Class Vehicule
-    Private _moteur As String = "V6"
+    Protected _moteur As String = "V6"
     Private _chassis As String = "4 RS"
     Private _carrosserie As String = "Rouge"
 
