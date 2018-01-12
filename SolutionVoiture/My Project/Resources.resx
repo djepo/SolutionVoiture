@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Aide" xml:space="preserve">
+    <value>Ce programme permet la génération de voitures qui effectuent des trajets entre deux villes</value>
+  </data>
   <data name="SaisieArrivée" xml:space="preserve">
     <value>Saisir Arrivée : </value>
   </data>

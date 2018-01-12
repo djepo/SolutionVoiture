@@ -61,6 +61,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Recherche une chaîne localisée semblable à Ce programme permet la génération de voitures qui effectuent des trajets entre deux villes.
+        '''</summary>
+        Friend ReadOnly Property Aide() As String
+            Get
+                Return ResourceManager.GetString("Aide", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Recherche une chaîne localisée semblable à Saisir Arrivée : .
         '''</summary>
         Friend ReadOnly Property SaisieArrivée() As String

@@ -1,4 +1,7 @@
-﻿Public Class Voiture
+﻿''' <summary>
+''' classe Voiture qui hérite de Véhicule
+''' </summary>
+Public Class Voiture
     Inherits Vehicule
     Private _roues As String = "4x195/55R16"
 
