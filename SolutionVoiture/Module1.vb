@@ -10,11 +10,17 @@ Module Module1
 
     Sub Help()
         Console.WriteLine(My.Resources.Aide)
+
     End Sub
+
     Sub NeedHelp()
         For Each argument As String In My.Application.CommandLineArgs
             Select Case argument
-                Case "--help", "-help", "-h", "/?" : Help()
+                Case "--help", "-help", "-h", "/?"
+                    Help()
+                    Environment.Exit(99)
+                Case "--rien"
+                    Environment.Exit(1)
             End Select
         Next
     End Sub
