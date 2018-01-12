@@ -4,9 +4,9 @@
     Private _distance As Distance
 
     Public Sub Saisir()
-        Console.Write("saisir Départ : ")
+        Console.Write(My.Resources.SaisieDépart)
         _depart = Console.ReadLine
-        Console.Write("saisir Arrivée : ")
+        Console.Write(My.Resources.SaisieArrivée)
         _arrivee = Console.ReadLine
     End Sub
 End Class
