@@ -1,10 +1,10 @@
 ﻿Public Class Decompte
     Private Shared _compte As Integer = 0
-    Private Shared _instance As Decompte = Nothing
+    ' Private Shared _instance As Decompte = Nothing
 
-    Private Sub New()
+    ' Private Sub New()
 
-    End Sub
+    ' End Sub
 
     '  Public Shared Function Instance() As Decompte
     '  If IsNothing(_instance) Then
@@ -13,8 +13,16 @@
     'Return _instance
     'End Function
 
+    Private Shared Sub Compte(valeur As Integer)
+        _compte += valeur
+        Console.WriteLine("comptage objet(" & valeur & ") " & _compte)
+    End Sub
+
     Public Shared Sub Plus()
-        _compte += 1
-        Console.WriteLine("comptage objet(+1) " & _compte)
+        Compte(1)
+    End Sub
+
+    Public Shared Sub Moins()
+        Compte(-1)
     End Sub
 End Class

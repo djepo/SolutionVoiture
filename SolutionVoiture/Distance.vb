@@ -10,6 +10,10 @@ Public Class Distance
         Decompte.Plus()
     End Sub
 
+    Protected Overrides Sub Finalize()
+        Decompte.Moins()
+    End Sub
+
     Public Property laDistance As Integer
         Get
             Return _d

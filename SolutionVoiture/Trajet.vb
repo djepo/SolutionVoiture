@@ -22,6 +22,10 @@ Public Class Trajet
         Decompte.Plus()
     End Sub
 
+    Protected Overrides Sub Finalize()
+        Decompte.Moins()
+    End Sub
+
     Public Sub Saisir()
         Console.Write(My.Resources.SaisieDépart)
         _depart = Console.ReadLine
