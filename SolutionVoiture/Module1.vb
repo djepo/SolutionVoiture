@@ -13,10 +13,9 @@ Module Module1
         'System.Console.WriteLine(maClio.leMoteur)
         'System.Console.WriteLine(maClio.GetMoteur)
         'monTrajet.Saisir()
-        Console.WriteLine(TestSaisir())
-        Console.ReadKey()
-        Environment.Exit(100)
-
+        'Console.WriteLine(TestSaisir())
+        'Console.ReadKey()
+        'Environment.Exit(100)
 
         Dim ville1 As String = CStr(Saisir("ville départ", "String"))
         Dim ville2 As String = CType(Saisir("ville arrivée", "String"), String)
@@ -25,10 +24,9 @@ Module Module1
 
         Dim monTrajet3 As New Trajet(CStr(Saisir("ville départ", "String")), CType(Saisir("ville arrivée", "String"), String), CInt(Saisir("distance", "Integer")))
 
-        monTrajet.Afficher()
-        monTrajet2.Afficher()
-        monTrajet3.Afficher()
-
+        Console.WriteLine(monTrajet)
+        Console.WriteLine(monTrajet2)
+        Console.WriteLine(monTrajet3)
 
         If NeedHelp() Then
             Help()

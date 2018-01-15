@@ -23,7 +23,11 @@ Public Class Trajet
         'FIXME: saisir la distance
     End Sub
 
-    Friend Sub Afficher()
+    Sub Afficher()
         Console.WriteLine(_depart & " -> " & _arrivee & " : " & _distance.laDistance)
     End Sub
+
+    Public Overrides Function ToString() As String
+        Return _depart & " -> " & _arrivee & " " & _distance.ToString
+    End Function
 End Class
