@@ -7,6 +7,7 @@ Public Class Distance
 
     Sub New(d As Integer)
         _d = d
+        Decompte.Plus()
     End Sub
 
     Public Property laDistance As Integer

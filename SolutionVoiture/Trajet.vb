@@ -19,6 +19,7 @@ Public Class Trajet
         _depart = dep
         _arrivee = arr
         _distance = New Distance(dist)
+        Decompte.Plus()
     End Sub
 
     Public Sub Saisir()
