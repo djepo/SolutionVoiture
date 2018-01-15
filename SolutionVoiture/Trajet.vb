@@ -9,6 +9,12 @@ Public Class Trajet
     'TODO: vérifier que la distance est en kilomètres
     Private _distance As Distance
 
+    ''' <summary>
+    ''' constructeur d'un trajet
+    ''' </summary>
+    ''' <param name="dep">ville de départ</param>
+    ''' <param name="arr">ville de destination</param>
+    ''' <param name="dist">distance entre les villes</param>
     Sub New(dep As String, arr As String, dist As Integer)
         _depart = dep
         _arrivee = arr
@@ -28,6 +34,6 @@ Public Class Trajet
     End Sub
 
     Public Overrides Function ToString() As String
-        Return _depart & " -> " & _arrivee & " " & _distance.ToString
+        Return _depart & " -> " & _arrivee & " " & _distance
     End Function
 End Class

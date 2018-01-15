@@ -21,4 +21,12 @@ Public Class Distance
         Return "(" & _d & _unité & ")"
     End Function
 
+    Public Shared Operator &(c1 As String, d1 As Distance) As String
+        Return c1 & d1.ToString
+    End Operator
+
+    Public Shared Operator &(d1 As Distance, c1 As String) As String
+        Return d1.ToString & c1
+    End Operator
+
 End Class
