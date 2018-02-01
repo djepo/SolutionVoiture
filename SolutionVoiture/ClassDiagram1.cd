@@ -19,14 +19,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ConsoleApp1.Distance">
-    <Position X="9" Y="1.25" Width="1.5" />
+    <Position X="10.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACgAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAAAI=</HashCode>
       <FileName>Distance.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ConsoleApp1.Trajet">
-    <Position X="11.75" Y="1.5" Width="1.5" />
+    <Position X="8.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAARAQIAAAAAAAAAAAAAAAAIAA=</HashCode>
       <FileName>Trajet.vb</FileName>
@@ -38,8 +38,22 @@
   <Class Name="ConsoleApp1.Decompte">
     <Position X="6.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAgACAAAAAAAAA=</HashCode>
       <FileName>Decompte.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Bateau">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bateau.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Logs">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAABACQAAAAAAAAAA=</HashCode>
+      <FileName>Logs.vb</FileName>
     </TypeIdentifier>
   </Class>
   <Module Name="ConsoleApp1.Module1" Collapsed="true">

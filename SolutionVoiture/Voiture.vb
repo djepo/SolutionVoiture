@@ -5,6 +5,9 @@ Public Class Voiture
     Inherits Vehicule
     Private _roues As String = "4x195/55R16"
 
+    Sub New()
+        Decompte.Plus()
+    End Sub
     Public Property lesRoues As String
         Get
             Return _roues
@@ -23,4 +26,8 @@ Public Class Voiture
     Public Overrides Function ToString() As String
         Return MyBase.ToString & " " & _roues
     End Function
+
+    Protected Overrides Sub Finalize()
+        Decompte.Moins()
+    End Sub
 End Class

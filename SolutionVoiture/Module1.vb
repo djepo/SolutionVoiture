@@ -9,6 +9,7 @@ Module Module1
     Dim monTrajet As New Trajet("Nantes", "Bordeaux", 352)
 
     Sub Main()
+        Logs.Instance.Trace("Démarrage du module")
         Dim ville1 As String = CStr(Saisir("ville départ", "String"))
         Dim ville2 As String = CType(Saisir("ville arrivée", "String"), String)
         Dim distV1V2 As Integer = CInt(Saisir("distance", "Integer"))
@@ -27,6 +28,7 @@ Module Module1
             Environment.Exit(99)
         End If
         System.Console.ReadKey()
+        Logs.Instance.Trace("Arrêt du module")
     End Sub
 
 End Module

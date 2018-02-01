@@ -71,8 +71,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bateau.vb" />
     <Compile Include="Decompte.vb" />
     <Compile Include="Distance.vb" />
+    <Compile Include="Logs.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -13,16 +13,17 @@
     'Return _instance
     'End Function
 
-    Private Shared Sub Compte(valeur As Integer)
+    Private Shared Sub Compte(valeur As Integer, msg As String)
         _compte += valeur
-        Console.WriteLine("comptage objet(" & valeur & ") " & _compte)
+        'Console.WriteLine("comptage objet(" & valeur & ") " & _compte)
+        Logs.Instance.Trace(msg & "comptage: " & _compte)
     End Sub
 
     Public Shared Sub Plus()
-        Compte(1)
+        Compte(1, "++  ")
     End Sub
 
     Public Shared Sub Moins()
-        Compte(-1)
+        Compte(-1, "--de")
     End Sub
 End Class
